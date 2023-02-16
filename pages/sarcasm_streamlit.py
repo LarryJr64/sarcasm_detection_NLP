@@ -5,10 +5,9 @@ import spacy
 import requests
 from streamlit_lottie import st_lottie
 from io import BytesIO
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
 import en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
-
-pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
 
 def load_lottieurl(url):
     r = requests.get(url)
