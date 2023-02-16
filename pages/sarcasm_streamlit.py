@@ -8,7 +8,7 @@ from io import BytesIO
 import en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
 
-!python -m spacy download en_core_web_sm
+#!python -m spacy download en_core_web_sm
 
 def load_lottieurl(url):
     r = requests.get(url)
