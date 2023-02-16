@@ -1,16 +1,13 @@
 import streamlit as st
-import json
 import pandas as pd
-import numpy as np
-from joblib import dump
-import pickle
 import joblib
-import tqdm
 import spacy 
 import requests
 from streamlit_lottie import st_lottie
 from io import BytesIO
-nlp = spacy.load('en_core_web_sm')
+import en_core_web_sm
+nlp = en_core_web_sm.load()
+
 
 def load_lottieurl(url):
     r = requests.get(url)
