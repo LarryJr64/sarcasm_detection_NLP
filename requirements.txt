@@ -4,5 +4,4 @@ joblib == 1.2.0
 spacy == 2.3.5
 requests == 2.28.1
 streamlit_lottie == 0.0.3
-io
 en_core_web_sm == 2.3.1
