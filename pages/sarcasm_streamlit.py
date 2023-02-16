@@ -8,7 +8,7 @@ from io import BytesIO
 import en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
 
-#!python -m spacy download en_core_web_sm
+pip3 install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
 
 def load_lottieurl(url):
     r = requests.get(url)
