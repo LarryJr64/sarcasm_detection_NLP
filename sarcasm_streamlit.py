@@ -6,7 +6,7 @@ import requests
 from streamlit_lottie import st_lottie
 from io import BytesIO
 import en_core_web_sm
-nlp = en_core_web_sm.load()
+nlp = spacy.load("en_core_web_sm")
 
 
 def load_lottieurl(url):
