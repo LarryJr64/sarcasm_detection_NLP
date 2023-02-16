@@ -2,6 +2,6 @@ streamlit == 1.18.1
 pandas == 1.4.4
 joblib == 1.2.0
 spacy>=2.2.0,<3.0.0
-pip3 install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_s
 requests == 2.28.1
 streamlit_lottie == 0.0.3
